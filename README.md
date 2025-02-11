@@ -5,16 +5,8 @@ The code is a replication of the bigram character-level tokenized language model
 ### Installation
 To install the required dependencies, run the following command in your terminal:
 ```bash
-pip install torch numpy matplotlib
+pip install torch matplotlib
 ```
-###### Usage
-To train the model, run the following command in your terminal:
-```bash
-python train.py --data-path path/to/your/dataset --model-name nanogpt --batch-size 64 --learning-rate 0.001 --epochs 1000
-```
-To generate text using the trained model, run the following command in your terminal:
-```bash
-python generate.py --model-path path/to/your/trained/model --prompt "Once upon a time" --max-length 1000```
 
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
