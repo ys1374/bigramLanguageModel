@@ -1,15 +1,25 @@
 # bigramLanguageModel
 
-The code is a replication of the bigram character-level tokenized language model this specific model is the foundation of transformers to built upon for my 10,000 hour goal of AI studies. The model is trained on a dataset of text, and it can generate text based on the input it receives. The code is written in Python and uses the PyTorch library for training and inference. The model is designed to be simple and easy to understand, making it a great starting point for anyone interested in learning about language models and deep learning. 
+A minimal implementation of a bigram character-level language model, designed as part of a foundational study into transformer architectures and language modeling. This project serves as a learning tool for understanding core concepts in deep learning and AI, aligned with a long-term goal of mastering machine learning fundamentals.
 
-### Installation
-To install the required dependencies, run the following command in your terminal:
-```bash
-pip install torch matplotlib
-```
+## Overview
 
-### Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+The model generates text by predicting the next character based on bigram (two consecutive characters) statistics. Two approaches are explored:
+1. **Statistical Approach**: Directly computes bigram probabilities using frequency counts and normalization.
+2. **Neural Network Approach**: Replicates the same task using a simple PyTorch neural network, demonstrating how gradient-based optimization achieves similar results.
 
-### License
-MIT
+Both approaches yield comparable performance, highlighting the relationship between statistical methods and neural network training.
+
+## Code Structure
+
+- Jupyter notebooks containing implementations: 
+  - **Bigram Frequency Analysis**: `bigram.ipynb` Probability-based approach using tensors.
+  - **Neural Network Implementation**: `bigram-nn.ipynb` PyTorch-based model trained with negative log-likelihood loss.
+
+## Installation
+
+1. **Create a virtual environment** (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate  # Windows
