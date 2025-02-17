@@ -1,3 +1,7 @@
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 # bigramLanguageModel
 
 A minimal implementation of a bigram character-level language model, designed as part of a foundational study into transformer architectures and language modeling. This project serves as a learning tool for understanding core concepts in deep learning and AI, aligned with a long-term goal of mastering machine learning fundamentals.
